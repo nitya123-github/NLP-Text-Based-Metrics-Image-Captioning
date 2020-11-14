@@ -5,10 +5,10 @@ OBJECTIVE:
 The main objective of the project is to evaluate a Natural Language Processing  System by applying various text based metrics
 
 ABSTRACT:
-When we are trying to solve real world NLP problems, we would want to know the model’s performance on these tasks, 
-to make an informed decision, to be aware of the trade-offs we are making. This is where the goodness of a metric comes in. 
-The real world is full of biases and we don’t want our solutions to be biased as it can have inconceivable consequences.
-So we are applying various text based metrics like WER, BLUE, GLUE, METEOR, TER, ROUGE, CIDEr on our NLP system to evaluate it. 
+In the past few years, the problem of generating descriptive sentences automatically for images has garnered a rising interest in natural language processing and computer vision research. Image captioning is a fundamental task which requires semantic understanding of images and the ability of generating description sentences with proper and correct structure. In this study, the authors propose a hybrid system employing the use of VCG16 model to generate vocabulary describing the images and a Long Short Term Memory (LSTM) to accurately structure meaningful sentences using the generated keywords. We showcase the efficiency of our proposed model using the Flickr8K datasets and show that their model gives accurate results compared utilising the Bleu metric. The Bleu metric is an algorithm for evaluating the performance of a machine translation system by grading the quality of text translated from one natural language to another. 
+
+INTRODUCTION:
+Caption generation is an interesting artificial intelligence problem where a descriptive sentence is generated for a given image. It involves the dual techniques from computer vision to understand the content of the image and a language model from the field of natural language processing to turn the understanding of the image into words in the right order. Image captioning has various applications such as recommendations in editing applications, usage in virtual assistants, for image indexing, for visually impaired persons, for social media, and several other natural language processing applications. Recently, deep learning methods have achieved state-ofthe-art results on examples of this problem. It has been demonstrated that deep learning models are able to achieve optimum results in the field of caption generation problems. Instead of requiring complex data preparation or a pipeline of specifically designed models, a single end-to-end model can be defined to predict a caption, given a photo. In order to evaluate our model, we measure its performance on the Flickr8K dataset using the BLEU standard metric. These results show that our proposed model performs better than standard models regarding image captioning in performance evaluation. 
 
 PROPOSED SYSTEM:
 
